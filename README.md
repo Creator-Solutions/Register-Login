@@ -1,2 +1,3 @@
-# Register-Login
-Login and Register With HTML/CSS/JS(JQUERY/AJAX) PHP/MySQL/
+# User login and registration with PHP/MySQL
+======
+
