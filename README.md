@@ -5,4 +5,8 @@
 ## How to run the project
 
 
-- XAMPP:
+1 XAMPP:
+  - Create a clone of the repository.
+  - Extract the project foler from the zip folder.
+  - Navigate to your XAMPP directory and open the  ``htdocs`` folder.
+  - 
