@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    width: 100%;
+    height: 55px;
+    border-bottom: 2px solid #c0c0c0;
+    display: flex;     
+}
+
+.head h2{
+    align-self: center;
+    margin: 0px 0px 0px 15px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container{
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 5px 5px 5px 5px #C0C0C0;
+    border-radius: 15px;
+}
+
+.container .left{
+    width: 50%;
+    height: 100%;
+}
+
+.container .left img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.container .right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.container .right .block{
+    width: 75%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;   
+}
+
+.container .right .block h2{
+    font-family: 'Comfortaa', cursive;
+    margin: 15px 0px 0px 15px;    
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #ff69b4;
+}
+
+.container .right .block label{
+    font-family: 'Comfortaa', cursive;
+    margin: 15px 0px 0px 15px;
+}
+
+.container .right .block .email_icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin: 90px 0px 0px 20px;
+}
+
+.container .right .block .pass_icon{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    margin: 170px 0px 0px 20px;
+}
+
+.container .right .block  input[type=email], input[type=password]{
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
+    padding: 7px 0px 7px 35px;
+    outline: none;
+    border: 1px solid #C0C0C0;
+    border-radius: 15px;
+    width: 80%;
+    height: 25px;
+    margin: 7px 0px 0px 15px;
+}
+
+.container .right .block .remember{
+    width: 52%;
+    height: 10px;
+    margin: 15px 0px 0px 15px;
+    
+}
+
+.container .right .block  input[type=submit]{
+    width: 50%;
+    height: 35px;
+    border-radius: 15px;
+    margin: 25px auto;
+    outline: none;
+    border: none;
+    background-color: #ff69b4;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container .right .block  input[type=submit]:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container .right .acc{
+    width: 85%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 14px;
+}
+
+.container .right .acc a {
+    margin-left: 4px;
+    text-decoration: none;
+    color: #111;
+    font-family: 'Comfortaa', cursive;
+}
