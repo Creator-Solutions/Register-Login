@@ -4,4 +4,5 @@
 
 ## How to run the project
 
-[] XAMPP: 
+
+- XAMPP:
