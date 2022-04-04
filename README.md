@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/creator-solutions/register-login) ![GitHub](https://img.shields.io/github/license/creator-solutions/Register-Login)
 
 ## Stack: 
-> PHP
+> PHP <br>
 > MySQL
 > JS(AJAX/JQUERY)
 > CSS
