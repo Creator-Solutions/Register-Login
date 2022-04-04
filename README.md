@@ -4,7 +4,8 @@
 
 ## Stack: 
 > PHP <br>
-> MySQL
-> JS(AJAX/JQUERY)
-> CSS
-> HTML
+> MySQL <br>
+> JS(AJAX/JQUERY) <br>
+> CSS <br>
+> HTML <br>
+ 
