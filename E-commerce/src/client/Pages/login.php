@@ -54,7 +54,7 @@
                             Password: $('#password').val(),
                         },
                         success: function(response){
-                           window.location.href= './auth/index.html?page_type=main';
+                           console.log('Authentication Valid');
                         },
                         error:function(err){
                             console.log(err);
